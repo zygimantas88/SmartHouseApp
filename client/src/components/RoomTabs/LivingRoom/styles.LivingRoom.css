@@ -1,0 +1,51 @@
+/* Closed tab styles */
+.RoomTabClosed {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: var(--mn-blue);
+  font-size: 1.8rem;
+}
+
+.iconClosedTab {
+  margin-right: 25px;
+  margin-left: 35px;
+  width: 25vw;
+}
+
+/* Expanded tab styles */
+.RoomTabExpanded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--mn-blue);
+  height: 80vh;
+  font-size: 2rem;
+}
+
+.iconExpandedTab {
+  margin-right: 0;
+  margin-left: 0;
+  width: 25vw;
+}
+
+.Header {
+  margin-top: 35px;
+  text-align: center;
+}
+.Header div {
+  margin-top: 10px;
+  font-size: 0.9em;
+  margin-left: 0;
+}
+
+.cancel-icon{
+  position: absolute;
+  right: 1.3rem;
+  margin: 0;
+  margin-top: 1.3rem;
+  width: 30px;
+  height: 30px;
+  opacity: 0.4;
+}

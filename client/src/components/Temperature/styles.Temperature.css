@@ -1,0 +1,43 @@
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.178);
+}
+
+.setpoint {
+    font-size: 0.35em;
+    text-align: center;
+}
+
+.temperature {
+    display: flex;
+    font-size: 3.5rem;
+
+}
+
+.humidity {
+    font-size: 0.35em;
+    text-align: center;
+
+}
+
+.value{
+    font-size: 1.5em;
+}
+
+.modeIcon{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.6rem;
+    text-align: center;
+}
+
+.modeIcon img{
+    margin: 0;
+    width: 25px;
+}
