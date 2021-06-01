@@ -37,7 +37,17 @@
     text-align: center;
 }
 
+/* Climate control mode buttons */
 .modeIcon img{
     margin: 0;
     width: 25px;
+}
+
+.active{
+    opacity: 1;
+    
+}
+.inactive{
+    opacity: 0.3;
+    
 }

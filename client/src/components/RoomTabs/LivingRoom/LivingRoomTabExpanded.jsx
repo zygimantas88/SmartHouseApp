@@ -8,7 +8,6 @@ import Temperature from '../../Temperature/Temperature';
 
 
 const LivingRoomTabExpanded = ({ setLivingRoomTab }) => {
-
    const handleCloseTab = (e) => {
     e.stopPropagation();
     setLivingRoomTab(false)

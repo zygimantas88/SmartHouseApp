@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App" >
-      <div onClick={(e) => {setLivingRoomTab(true)}} >
+      <div onClick={() => {setLivingRoomTab(true)}} >
         {!!LivingRoomTab 
         ? <LivingRoomTabExpanded setLivingRoomTab={setLivingRoomTab} LivingRoomTab={LivingRoomTab}/> 
         : <LivingRoomTabClosed />
