@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const LightsBtn = () => {
+// styles
+import './styles.LightsBtns.css'
+
+const LightsBtn = ({ handleBtnClick, iconState, btnName }) => {
+
     return (
-        <div>
-            
+        <div className="button-container" onClick={handleBtnClick}>
+            <img className="btn-icon" src={iconState} alt={btnName} />
+            <div className="btn-name">{btnName}</div>
         </div>
     )
 }
